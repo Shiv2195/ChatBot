@@ -1,0 +1,130 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hello",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "I want to know my Horoscope?",
+        "intent": "get_horoscope",
+        "entities": []
+      },
+      {
+        "text": "Can you please tell me my horoscope?",
+        "intent": "get_horoscope",
+        "entities": []
+      },
+      {
+        "text": "Please subscribe me",
+        "intent": "subscription",
+        "entities": []
+      },
+      {
+        "text": "Hi",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "Hey",
+        "intent": "greeting",
+        "entities": []
+      },
+      {
+        "text": "My horoscope for today?",
+        "intent": "get_horoscope",
+        "entities": []
+      },
+      {
+        "text": "If you want you can subscribe us well?",
+        "intent": "subscription",
+        "entities": []
+      },
+      {
+        "text": "19-01",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "19",
+            "entity": "DD"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "01",
+            "entity": "MM"
+          }
+        ]
+      },
+      {
+        "text": "What about my horoscope today?",
+        "intent": "get_horoscope",
+        "entities": []
+      },
+      {
+        "text": "Do not forget to subscribe",
+        "intent": "subscription",
+        "entities": []
+      },
+      {
+        "text": "My birthday is on 21-08",
+        "intent": "dob_intent",
+        "entities": [
+          {
+            "start": 18,
+            "end": 20,
+            "value": "21",
+            "entity": "DD"
+          },
+          {
+            "start": 21,
+            "end": 23,
+            "value": "08",
+            "entity": "MM"
+          }
+        ]
+      },
+      {
+        "text": "My horoscope sign is Capricorn",
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "start": 21,
+            "end": 30,
+            "value": "Capricorn",
+            "entity": "horoscope_sign"
+          }
+        ]
+      },
+      {
+        "text": "how is libra people day today?",
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "libra",
+            "entity": "horoscope_sign"
+          }
+        ]
+      },
+      {
+        "text": "is it good for gemini?",
+        "intent": "get_horoscope",
+        "entities": [
+          {
+            "start": 15,
+            "end": 21,
+            "value": "gemini",
+            "entity": "horoscope_sign"
+          }
+        ]
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

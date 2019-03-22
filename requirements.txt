@@ -1,0 +1,5 @@
+rasa-core-sdk==0.12.2
+requests==2.21.0
+rasa-core==0.13.3
+gunicorn==19.9.0
+sklearn-crfsuite==0.3.6

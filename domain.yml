@@ -1,0 +1,40 @@
+%YAML 1.1
+---
+actions:
+- utter_ask_horoscope_sign
+- subscribe_user
+- utter_ask_dob
+- get_todays_horoscope
+- utter_subscribe
+- utter_greet
+entities:
+- text
+- subscribe
+- dob_intent
+- horoscope_sign
+- DD
+- MM
+intents:
+- subscription
+- dob_intent
+- get_horoscope
+- greeting
+- exit
+slots:
+  DD:
+    type: text
+  MM:
+    type: text
+  horoscope_sign:
+    type: text
+  subscribe:
+    type: bool
+templates:
+  utter_ask_dob:
+  - text: What is your DOB in DD-MM format?
+  utter_ask_horoscope_sign:
+  - text: What is your horoscope sign?
+  utter_greet:
+  - text: Hello! How are you doing today?
+  utter_subscribe:
+  - text: Do you want to subscribe for daily updates?

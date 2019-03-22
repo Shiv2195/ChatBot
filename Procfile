@@ -1,0 +1,1 @@
+web:  python3 ChatBot.py  && python -m rasa_core_sdk.endpoint --actions actions --port $PORT
